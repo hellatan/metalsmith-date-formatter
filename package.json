@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-date-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "format dates",
   "main": "lib/index.js",
   "scripts": {
@@ -11,13 +11,15 @@
   ],
   "author": "dale tan <dale@1stdibs.com> (https://1stdibs.com)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "lodash.isarray": "^3.0.3",
     "lodash.isempty": "^3.0.4",
     "lodash.isstring": "^3.0.1",
     "lodash.transform": "^3.0.3",
-    "metalsmith": "^1.7.0",
-    "mocha": "^2.2.5",
     "moment": "^2.10.3"
+  },
+  "devDependencies": {
+    "metalsmith": "^1.7.0",
+    "mocha": "^2.2.5"
   }
 }
