@@ -1,0 +1,23 @@
+{
+  "name": "metalsmith-date-formatter",
+  "version": "0.1.0",
+  "description": "format dates",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "dale tan <dale@1stdibs.com> (https://1stdibs.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash.isarray": "^3.0.3",
+    "lodash.isempty": "^3.0.4",
+    "lodash.isstring": "^3.0.1",
+    "lodash.transform": "^3.0.3",
+    "metalsmith": "^1.7.0",
+    "mocha": "^2.2.5",
+    "moment": "^2.10.3"
+  }
+}
