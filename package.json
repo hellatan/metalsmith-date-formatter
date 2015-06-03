@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-date-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "format dates",
   "main": "lib/index.js",
   "scripts": {
@@ -10,6 +10,13 @@
     "date"
   ],
   "author": "dale tan <dale@1stdibs.com> (https://1stdibs.com)",
+  "bugs": {
+    "url": "https://github.com/hellatan/metalsmith-date-formatter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellatan/metalsmith-date-formatter"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash.isarray": "^3.0.3",
