@@ -16,7 +16,7 @@ Front Matter:
 ```markdown
 ---
 publishDate: 2015-05-30
-modifedDate: 2015-05-31
+modifiedDate: 2015-05-31
 ---
 ```
 
