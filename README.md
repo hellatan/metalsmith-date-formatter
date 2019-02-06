@@ -89,17 +89,17 @@ It can be useful to output a single date in more than one format. This can be ac
 The following example re-uses the same `date` and outputs it in 2 formats named `dateNice`, `dateYear`.
 ```js
 .use(dateFormatter({
-	dates: [
-		{
-			key: 'date',
-			format: 'MMMM DD, YYYY',
-			out_key: 'dateNice'
-		}, {
-			key: 'date',
-			format: 'YYYY',
-			out_key: 'dateYear'
-		}
-	]
+    dates: [
+        {
+            key: 'date',
+            format: 'MMMM DD, YYYY',
+            out_key: 'dateNice'
+        }, {
+            key: 'date',
+            format: 'YYYY',
+            out_key: 'dateYear'
+        }
+    ]
 })
 
 ```
