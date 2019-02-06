@@ -101,8 +101,8 @@ The following example re-uses the same `date` and outputs it in 2 formats named 
         }
     ]
 })
-
 ```
+`out_key` can also be used to rename a date.
 
 ### format
 
